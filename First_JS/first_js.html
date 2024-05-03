@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function hello() {
+            document.getElementById('sample').innerHTML = "HELLO";
+            document.getElementById('sample').style.backgroundColor = "#AA0000";
+            document.getElementById('sample').style.color = "yellow";
+
+            document.getElementById('anothersample1').innerHTML = "LOVE";
+            document.getElementById('anothersample1').style.backgroundColor = "#00AA00";
+            document.getElementById('anothersample1').style.color = "White";  
+
+            document.getElementById('anothersample2').innerHTML = "GOODBYE";
+            document.getElementById('anothersample2').style.backgroundColor = "#0AAAA0";
+            document.getElementById('anothersample2').style.color = "red";
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="hello()">Click me</button>
+    <p id="sample">When you click the button above, the text will change.</p>
+
+    <p id="anothersample1">This is another sample.</p>
+
+    <p id="anothersample2">This is another sample.</p>
+</body>
+</html>
